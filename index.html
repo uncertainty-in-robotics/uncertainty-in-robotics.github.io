@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>WS Robots in Open Worlds</title>
+    <meta name="description" content="ICRA 2024 Workshop">
+    <link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png">
+    <!-- custom.css -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- font-awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="css/aos.css">
+</head>
+
+<body>
+    <!-- banner -->
+    <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/banner-bk.jpg);">
+        <div class="container text-center text-md-left">
+            <header>
+                <div class="row justify-content-between">
+                    <div class="col-2">
+                        <!-- <img src="img/logo.png" alt="logo"> -->
+                    </div>
+                    <!-- <div class="col-6 align-self-center text-right">
+                        <a href="#" class="text-white lead">Get Early Access</a>
+                    </div> -->
+                </div>
+            </header>
+            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-white font-weight-bold my-5">
+                Robots in Open Worlds
+            </h1>
+            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
+            ICRA 2024 Workshop
+            </p>
+            <!-- <a href="#" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Get Started</a> -->
+        </div>
+    </div>
+    <!-- three-blcok -->
+    <div class="container my-5 py-2">
+        <h2 class="text-center font-weight-bold my-5">open-world problems are prevalent in many application areas</h2>
+        <div class="row">
+            <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-1.jpg" alt="Anti-spam" class="mx-auto">
+                <h4>space robotics</h4>
+                <!-- <p>Lorem ipsum dolor sit amet porro his no his deleniti</p> -->
+            </div>
+            <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-2.jpg" alt="Phishing Detect" class="mx-auto">
+                <h4>autonomous driving</h4>
+                <!-- <p>Ne error antiopam usu. Sed vocen concludaturque ea</p> -->
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-3.jpg" alt="Smart Scan" class="mx-auto">
+                <h4>underwater robotics</h4>
+                <!-- <p>Et usu ocurreret elaboraret doctus prodesse assueverit.</p> -->
+            </div>
+            <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-3.jpg" alt="Smart Scan" class="mx-auto">
+                <h4>industrial robotics</h4>
+                <!-- <p>Et usu ocurreret elaboraret doctus prodesse assueverit.</p> -->
+            </div>
+            <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-3.jpg" alt="Smart Scan" class="mx-auto">
+                <h4>agriculture & forestry</h4>
+                <!-- <p>Et usu ocurreret elaboraret doctus prodesse assueverit.</p> -->
+            </div>
+            <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-3.jpg" alt="Smart Scan" class="mx-auto">
+                <h4>robot learning</h4>
+                <!-- <p>Et usu ocurreret elaboraret doctus prodesse assueverit.</p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container my-5 py-2">
+    <p>Advancements in Machine Learning have heralded a new era, fundamentally transforming a broad spectrum of research domains and manifesting remarkable achievements across various applications. A vivid testament to this transformative power has been the deployment of numerous methods in robotic systems, augmenting the autonomy, responsiveness, and efficiency of such systems to an of unprecedented degree.
+However, an underlying complexity in the methodologies applied lies in a prevailing dependence on the closed-set solid assumption. This assumption posits that the classes utilized for training and testing are drawn exclusively from a coherent and known set of classes. It is a presumption that may seem convenient but often diverges from the complex realities encountered in real-world scenarios.
+Robotic systems, in their routine functioning, are continually confronted with situations that encompass previously unknown classes. This inconsistency with the closed-set assumption can arise from many factors that are as diverse as they are intricate. For instance, in many medical applications, the availability of substantial training data might be an insurmountable challenge. Elsewhere, like in planetary exploration, the environment could be entirely unknown, rendering previous training irrelevant. Moreover, in dynamically evolving fields such as autonomous driving, constant changes, such as introducing new types of vehicles, create ever-shifting landscapes that defy static modelling.
+Addressing these complex scenarios is not merely an academic exercise but a critical imperative for developing robust autonomous systems. Such systems must be resilient and adaptable enough to be deployed in real-world environments for extended periods. Beyond the pivotal role of detecting open-set samples, an equally significant aspect is leveraging these unknown instances to foster continual improvement and adaptation within the system.
+This dual challenge forms the core intersection between two vital research communities. The identification and recognition of novel samples fall under the purview of the open-set research community, a group dedicated to understanding and mitigating unknown variables. Simultaneously, the practical utilization of these samples to facilitate the continuous enhancement of the system resonates with the objectives of the continuing learning community.
+In consideration of these complex, interrelated challenges, the proposed workshop aims to embark on a comprehensive exploration of open-set problems specifically tailored for robotic applications. Beyond mere identification, it seeks to delve into the uncharted territories of continuing learning and iterative improvement. By posing and engaging with the intricate question of how open-set predictions can be systematically employed to refine and enhance robotic systems, the workshop aspires to be a catalyst for innovative thinking, fostering collaboration, and illuminating pathways for the future of robotics and machine learning.
+    </p>
+    <p>
+The presentations will provide a blend of insights drawn from the broader sphere of open-set research and its specific applications within the context of robotics. The scope of these applications is diverse and expansive, encompassing areas that include but are not confined to transportation, space exploration, underwater exploration, industrial automation, and construction.
+In our quest to foster an environment rich in varied perspectives and multifaceted expertise, we have taken steps to ensure that the selected speakers represent a broad spectrum of application fields. This strategy aims to convene researchers from an extensive array of communities, enabling them to converge, collaborate, and collectively share their invaluable experience and specialized knowledge.
+In addition to the presentations gleaned from contributed papers and distinguished keynote speakers, the workshop will feature a unique and stimulating component: an open-set segmentation challenge. This challenge promises to explore the complexities of open-set problems as it will introduce datasets derived from disparate robotic fields. Including such a challenge not only infuses the workshop with an interactive dimension but also deepens our collective understanding of open-set dynamics across various robotic domains.
+    </p>
+
+    </div>
+    <!-- feature (skew background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-first">
+        <div class="container my-5">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6">
+                    <h2 class="font-weight-bold">Speakers from Diverse Application Areas</h2>
+                    <p class="my-4">Te iisque labitur eos, nec sale argumentum scribentur no,
+                        <br> augue disputando in vim. Erat fugit sit at, ius lorem deserunt deterruisset no.</p>
+                    <!-- <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">Learn More</a> -->
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
+                    <img src="img/talk.jpg" alt="A speaker giving a talk in a lecture Hall." class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature (green background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-last">
+        <div class="container">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 flex-md-last">
+                    <h2 class="font-weight-bold">Poster Contributions and Challenge</h2>
+                    <p class="my-4">
+                        Duo suas detracto maiestatis ad, commodo lucilius invenire nec ad,
+                        <br> eum et oratio disputationi. Falli lobortis his ad
+                    </p>
+                    <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">Call for Posters</a>
+                    <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">Open-World Perception Challenge</a>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center flex-md-first">
+                    <img src="img/poster.jpg" alt="A person standing in front of a poster, explaining their research to 3 listeners." class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5 py-2" id="talks">
+        <h2 class="text-center font-weight-bold d-block mb-3">Talks</h2>
+        <div class="row">
+            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-once="true" class="col-md-3 text-center py-4 mt-5">
+                <img src="img/client-1.png" alt="Client Logo" class="mx-auto d-block">
+                <h4 class="my-4">Amazing Speaker</h4>
+                <p class="font-weight-bold">(not confirmed)</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true" class="col-md-3 text-center py-4 mt-5">
+                <img src="img/client-1.png" alt="Client Logo" class="mx-auto d-block">
+                <h4 class="my-4">Amazing Speaker</h4>
+                <p class="font-weight-bold">(not confirmed)</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000" data-aos-once="true" class="col-md-3 text-center py-4 mt-5">
+                <img src="img/client-1.png" alt="Client Logo" class="mx-auto d-block">
+                <h4 class="my-4">Amazing Speaker</h4>
+                <p class="font-weight-bold">(not confirmed)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+    <div class="container my-5 py-2" id="talks">
+        <h2 class="text-center font-weight-bold d-block mb-3">Organizers</h2>
+        <div class="row">
+            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-once="true" class="col-md-3 text-center py-4 mt-5">
+                <img src="img/client-1.png" alt="Client Logo" class="mx-auto d-block">
+                <h4 class="my-4">Stephany Berrio</h4>
+                <p>University of Sidney</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true" class="col-md-3 text-center py-4 mt-5">
+                <img src="img/client-1.png" alt="Client Logo" class="mx-auto d-block">
+                <h4 class="my-4">Marcus G. M&uuml;ller</h4>
+                <p>DLR</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000" data-aos-once="true" class="col-md-3 text-center py-4 mt-5">
+                <img src="img/client-1.png" alt="Client Logo" class="mx-auto d-block">
+                <h4 class="my-4">Hermann Blum</h4>
+                <p>ETH Zürich</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- client -->
+    <!-- <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-1.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-2.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-3.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-4.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-5.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-6.png" class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- contact -->
+    <!-- <div class="jumbotron jumbotron-fluid" id="contact" style="background-image: url(img/contact-bk.jpg);">
+        <div class="container my-5">
+            <div class="row justify-content-between">
+                <div class="col-md-6 text-white">
+                    <h2 class="font-weight-bold">Contact Us</h2>
+                    <p class="my-4">
+                        Te iisque labitur eos, nec sale argumentum scribentur,
+                        <br> augue disputando in vim. Erat fugit sit at, ius lorem.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>Email : company_email@com</li>
+                        <li>Phone : 361-688-5824</li>
+                        <li>Address : 4826 White Avenue, Corpus Christi, Texas</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                    	<div class="row">
+	                        <div class="form-group col-md-6">
+	                            <label for="name">Your Name</label>
+	                            <input type="name" class="form-control" id="name">
+	                        </div>
+	                        <div class="form-group col-md-6">
+	                            <label for="Email">Your Email</label>
+	                            <input type="email" class="form-control" id="Email">
+	                        </div>
+	                    </div>
+	                    <div class="form-group">
+	                        <label for="message">Message</label>
+	                        <textarea class="form-control" id="message" rows="3"></textarea>
+	                    </div>
+                        <button type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-green my-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+	<!-- copyright -->
+	<div class="jumbotron jumbotron-fluid" id="copyright">
+        <div class="container">
+            <div class="row justify-content-between">
+            	<div class="col-md-6 text-white align-self-center text-center text-md-left my-2">
+                    2023 Stephany Berrio, Marcus G. M&uuml;ller, Hermann Blum
+                </div>
+                <div class="col-md-6 align-self-center text-center text-md-right my-2" id="social-media">
+                    <!-- <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-medium" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AOS -->
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+      });
+    </script>
+</body>
+
+</html>
