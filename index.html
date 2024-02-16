@@ -77,19 +77,29 @@
         </div>
     </div>
     <div class="container my-5 py-2">
-    <p>Most robot perception research today relies on the closed-set assumption. With the ubiquitous use of machine-learning in modern perception systems, even expanding a closed-set becomes harder and involves data collection for many modules of a perception pipeline. In most robotic applications, however, robots are continually confronted with  previously unknown classes. Robust autonomous systems therefore must be resilient and adaptable: They need to detect open-set samples, and should leverage these unknown instances for continual improvement and adaptation within the system.</p>
-    <p>This workshop joins diverse perspectives on the open-set problem and strives to connect researchers from anomaly detection, continual learning, domain adaptation, and applied robotics.</p>
-    <p>Of particular interest to this workshop is the ongoing debate whether closed-set limitations can be overcome through data alone. Recent works on foundation models suggest much improved generalization, but are yet to be tested in more diverse real-world applications.</p>
-    <p>Talks and Submissions cover topics of:</p>
+        <h5 class="text-center font-italic mb-5">What are current limitations and challenges in open-set robot perception?</h5>
+        <h5 class="text-center font-italic mb-5">Will closed-set limitations be overcome by massively scaling up training data for foundation models, or is that not sufficient for the open-set problem?</h5>
+        <h5 class="text-center font-italic mb-5">Are open-set problems addressed differently in different robotic application areas? What can we learn from other domains? Why are there differences?</h5>
+        <h5 class="text-center font-italic mb-5">How can we mirror the limitations experienced in the field into better open-set perception benchmarks?</h5>
+    </div>
+    <div class="container my-5 py-2">
+    <p>Robots are envisioned to perform complex tasks in cluttered households, continuously changing plantations, hardly perceivable ocean floors, or entirely unexplored other planets. The key to acting in such surroundings and understanding them is to possess a robust sense of (visual) perception. However, most robot perception methods today rely on the closed-set assumption, which contradicts the open-set world they have to interact with. Most environments are constantly changing with previously unknown classes (e.g. relatively new e-scooters do not appear in many datasets). For planetary exploration, the closed-set assumption is in itself rather problematic since one tries to search for the unknown. Robust autonomous systems must be resilient and adaptable: They need to detect open-set samples and leverage these unknown instances for continual improvement and adaptation within the system.</p>
+    <p>Dealing with the open-set problem is now more crucial than ever. Since robots are deployed in more parts even in our day-to-day lives, it is important to guarantee secure functionality. This workshop proposal comes at a time when anybody can buy robots that can easily walk through family homes or greenhouses but still fail to reliably distinguish between a coffee table and a bench. Right now researchers know the architectures that can scale to large closed sets, but what is lacking behind are methods and tools that are able to deal with novel observations that robots make during their deployment. In this context, robotic perception first requires the ability to understand unknown situations. The detection of potentially new information is crucial for a safe interaction but then opens opportunities to adapt the perception on the fly. To this end, we divide the topics into two main groups, namely the Detection of and the Learning from Open-Set Samples.</p>
+    <p>Talks and Submissions cover:</p>
+    <p><strong>Detection of Open-Set Samples:</strong></p>
         <ul>
-            <li>Out-of-Distribution / anomaly / novelty / open-set detection and segmentation</li>
-            <li>Domain Adaptation and Continual Learning for Robot Perception</li>
-            <li>Perception Robustness and Safety in Autonomous Robots</li>
-            <li>Limitations of Foundation Models</li>
-            <li>Self-supervised and Active Learning in Deployments</li>
-            <li>Fairness, Transparency, and Privacy in Adaptive Systems</li>
+            <li>Out-of-Distribution / Anomaly / Novelty Detection and Segmentation</li>
+            <li>Uncertainty Estimation for Machine Vision</li>
+            <li>Open-Set Limitations of Foundation Models</li>
         </ul>
 
+    <p><strong>Learning from Open-Set Samples:</strong></p>
+        <ul>
+            <li>Transfer Learning and Domain Adaptation</li>
+            <li>Continual and (Inter-)Active Learning on Robots</li>
+            <li>Self-supervised Learning in Deployments</li>
+            <li>Fairness, Transparency, and Privacy in Adaptive Perception Systems</li>
+        </ul>
     </div>
     <!-- feature (skew background) -->
     <div class="jumbotron jumbotron-fluid feature" id="feature-first">
@@ -112,7 +122,7 @@
         <div class="container">
             <div class="row justify-content-between text-center text-md-left">
                 <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 flex-md-last">
-                    <h2 class="font-weight-bold">Poster Contributions and Challenge</h2>
+                    <h2 class="font-weight-bold">Poster Contributions and Highlight Talks</h2>
                     <!-- <p class="my-4">
                         Duo suas detracto maiestatis ad, commodo lucilius invenire nec ad,
                         <br> eum et oratio disputationi. Falli lobortis his ad
