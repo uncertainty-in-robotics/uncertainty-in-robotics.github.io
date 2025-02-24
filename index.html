@@ -98,24 +98,26 @@
         <h5 class="text-center font-italic mb-5">What’s the cost of ignoring uncertainty?</h5>
     </div>
     <div class="container my-5 py-2">
-        <p>Robots are envisioned to perform complex tasks in cluttered households, continuously changing plantations,
-            hardly perceivable ocean floors, or entirely unexplored other planets. The key to acting in such
-            surroundings and understanding them is to possess a robust sense of (visual) perception. However, most robot
-            perception methods today rely on the closed-set assumption, which contradicts the open-set world they have
-            to interact with. Most environments are constantly changing with previously unknown classes (e.g. relatively
-            new e-scooters do not appear in many datasets). For planetary exploration, the closed-set assumption is in
-            itself rather problematic since one tries to search for the unknown. Robust autonomous systems must be
-            resilient and adaptable: They need to detect open-set samples and leverage these unknown instances for
-            continual improvement and adaptation within the system.</p>
-        <p>Dealing with the open-set problem is now more crucial than ever. Since robots are deployed in more parts even
-            in our day-to-day lives, it is important to guarantee secure functionality. This workshop proposal comes at
-            a time when anybody can buy robots that can easily walk through family homes or greenhouses but still fail
-            to reliably distinguish between a coffee table and a bench. Right now researchers know the architectures
-            that can scale to large closed sets, but what is lacking behind are methods and tools that are able to deal
-            with novel observations that robots make during their deployment. In this context, robotic perception first
-            requires the ability to understand unknown situations. The detection of potentially new information is
-            crucial for a safe interaction but then opens opportunities to adapt the perception on the fly. To this end,
-            we divide the topics into two main groups, namely the Detection of and the Learning from Open-Set Samples.
+        <p>Uncertainty is an important concept for robotics because it affects how robots perceive, navigate, and
+            interact with the world. Robots must not only make decisions but should also know how confident they are in
+            those decisions. In perception, handling uncertainty is critical, especially in open-world segmentation
+            where robots encounter unfamiliar objects or scenes. Without an awareness of uncertainty, a robot might
+            misclassify unknown elements, leading to potentially unsafe actions. In navigation, estimating uncertainty
+            helps assess traversability, since robots need to be able to judge which paths are safer, even when dealing
+            with incomplete data or changing terrain. Ignoring uncertainty can lead to overly cautious behavior or
+            dangerous decisions. For control, uncertainty-aware systems can better handle typical problems such as
+            sensor noise, unpredictable disturbances, and modeling errors, leading to more reliable and stable
+            performance.
+        </p>
+        <p>As robotics moves into high-stakes applications like autonomous driving and field robotics, robots need to
+            manage uncertainty to aim for safe and reliable real-world deployment.
+            This workshop aims to bring together researchers tackling uncertainty across various domains in robotics.
+            Our focus is on addressing uncertainty from a practical perspective, aiming to develop methods that can be
+            applied to real-world robotic systems operating in dynamic and unstructured environments. Rather than
+            treating uncertainty as a purely academic problem or a theoretical challenge, we emphasize its importance in
+            enabling robots to make safer, more informed decisions in real-time scenarios. Through this workshop, we
+            hope to foster collaboration and innovation that push the boundaries of what is possible in
+            uncertainty-aware robotics.
         </p>
         <p>Talks and Submissions cover:</p>
         <p><strong>Detection of Open-Set Samples:</strong></p>
