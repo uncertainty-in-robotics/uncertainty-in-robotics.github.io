@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>WS Uncertainty in Open-World Robotics - Call for Papers</title>
+    <meta name="description" content="ICRA 2026 Workshop - Call for Papers">
+    <link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png">
+    <!-- custom.css -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="css/aos.css">
+</head>
+<body>
+    <!-- banner -->
+    <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/banner-ws.jpg);">
+        <div class="container text-center text-md-left">
+            <header>
+                <div class="row justify-content-between">
+                    <div class="col-2">
+                        <!-- <img src="img/logo.png" alt="logo"> -->
+                    </div>
+                </div>
+            </header>
+            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true"
+                class="display-3 text-white font-weight-bold my-5">
+                Open-World Panoptic Segmentation Competition
+            </h1>
+            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true"
+                class="lead text-white my-4">
+                Workshop in conjunction with ICRA 2026 | June 5, 2026 | Vienna
+            </p>
+            <a href="https://www.ipb.uni-bonn.de/data/panic/index.html" target="_blank" class="btn my-4 font-weight-bold atlas-cta cta-green">Dataset</a>
+            <a href="https://www.codabench.org/competitions/4477/" target="_blank" class="btn my-4 font-weight-bold atlas-cta cta-green">Competition</a>
+        </div>
+    </div>
+    <!-- content -->
+    <div class="container my-5 py-2">
+        <h2 class="text-center font-weight-bold my-5">Overview</h2>
+        <p>This competition focuses on Open-World Panoptic Segmentation, a critical task for enabling robots to handle uncertainty in dynamic, real-world environments. Participants will develop models that can segment and classify known and unknown objects in open-world settings.</p>
+        <p><strong>Definition of the Task:</strong> Panoptic segmentation is a unified task that combines semantic segmentation (assigning a class label to each pixel) and instance segmentation (distinguishing individual object instances). In an open-world setting, the model must also handle unknown or novel classes not seen during training, often by detecting them as "unknown".</p>
+        <p><strong>Importance:</strong> Open-World Panoptic Segmentation is essential for safe and adaptable robotics. It allows robots to navigate unpredictable environments, such as urban areas or disaster zones, by identifying known objects while flagging unknowns for further exploration or caution. This reduces risks from misclassification and enhances decision-making under uncertainty, aligning with the workshop's theme of leveraging uncertainty for intelligent robotic systems.</p>
+        <p class="font-weight-bold">Submission Deadline: April 30, 2026</p>
+        <h2>Dataset</h2>
+        <p>The competition is based on the <a href="https://www.ipb.uni-bonn.de/data/panic/index.html" target="_blank">PANIC Dataset</a>, which provides challenging scenarios for panoptic segmentation in open-world robotics.</p>
+        <p>The PANIC dataset was recorded in Bonn, Germany. The 19 Cityscapes evaluation classes on which most segmentation models for autonomous driving are trained, serve as the basis to determine anomalies. Everything that belongs to those 19 classes is labeled as “not anomaly” in the dataset. For all the rest, it is provided a pixel-wise semantic and instance annotation.</p>
+        <h2>Submission</h2>
+        <p>Submit your solutions via <a href="https://www.codabench.org/competitions/4477/" target="_blank">Codabench</a>. Follow the platform's guidelines for code submission and evaluation.</p>
+        <p>Submissions should include the model predictions following the data format specified on the Codabench page. The evaluation will be based on Panoptic Quality (PQ), Recognition Quality (RQ), Segmentation Quality (SQ), and mean intersection over union (mIoU). The deadline for the competition is the <strong>30th of April, 2026</strong>. Late submissions may not be considered.</p>
+        <h2>Competition Winners</h2>
+        <p>The first-place winner will be invited to give an oral presentation at the workshop during ICRA 2026.</p>
+        <p>In addition to the presentation opportunity, winners may receive certificates and recognition in workshop materials. The top performers will also have their methods discussed in the workshop proceedings, fostering collaboration in the field of uncertainty-aware robotics.</p>
+        <h2>Further Submissions</h2>
+        <p>Apart from the Open-World Panoptic Segmentation task, participants can also submit their results to the other competitions based on the PANIC Dataset. Winners from those competitions will also receive certificates and recognition in workshop materials but might not give an oral presentation:</p>
+        <p><strong>Anomaly Segmentation:</strong> <a href="https://www.codabench.org/competitions/4561/" target="_blank">Codabench competition</a></p>
+        <p><strong>Open-World Semantic Segmentation:</strong> <a href="https://www.codabench.org/competitions/4563/" target="_blank">Codabench competition</a></p>
+        <p><strong>Open-Set Panoptic Segmentation:</strong> <a href="https://www.codabench.org/competitions/4562/" target="_blank">Codabench competition</a></p>
+    </div>
+    <!-- footer -->
+    <!-- copyright -->
+        <div class="jumbotron jumbotron-fluid" id="copyright">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 text-white align-self-center text-center text-md-left my-2">
+                        2025 M. Sodano, F. Magistri, H. Blum, G. Allabadi, L. Nunes, X. Chen, D. Miller, C. Stachniss <br>
+                        <a href="https://www.flaticon.com/free-icons/robot">illustrations by Izwar Muis, Freeplk,
+                            Eucalyp,
+                            bsd, Vectors Tank, pongsakornRed - Flaticon</a>
+                    </div>
+                    <div class="col-md-6 align-self-center text-center text-md-right my-2" id="social-media">
+                        <!-- <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-medium" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AOS -->
+        <script src="js/aos.js"></script>
+        <script>
+            AOS.init({
+            });
+        </script>
+</body>
+</html>
